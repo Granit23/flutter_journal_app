@@ -20,12 +20,6 @@ class _JournalEntryState extends State<JournalEntry> {
       appBar: AppBar(
         centerTitle: true,
         title: Text("New Entry"),
-        actions: [
-          IconButton(
-            icon: Icon(Icons.settings),
-            onPressed: () {},
-            ),
-        ]
       ),
       body: SingleChildScrollView(child:formWidget(context)),
     );
